@@ -1,0 +1,106 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla";
+}
+
+body section {
+    background-color: white;
+    width: 45%;
+    margin: 7% auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.4);
+}
+
+body section>article {
+    padding: 1em 2em;
+}
+
+body section h1 {
+    color: hsl(179, 62%, 43%);
+    margin: 1em 0;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+body section>article h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+body section>article p {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+}
+
+body #bottom-card {
+    display: flex;
+}
+
+body #bottom-card article {
+    flex: 1 1 0;
+    padding: 2em;
+    color: #fff;
+}
+
+body #bottom-card article:first-of-type {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+}
+
+body #bottom-card article:last-of-type {
+    background-color: #4ABEBD;
+    border-radius: 0 0 10px 0;
+}
+
+body #bottom-card article h2 {
+    margin: 0 0 1em 0;
+}
+
+body #bottom-card article:first-child>div {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+body #bottom-card article:first-child>div p:first-of-type {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: .2em;
+}
+
+body #bottom-card article:first-child p:nth-child(3) {
+    padding-bottom: 1em;
+}
+
+body #bottom-card article:first-child a {
+    padding: 1em 5.5em;
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: -1px 14px 125px -35px rgba(0, 0, 0, 0.75);
+}
+
+body #bottom-card article:last-child p {
+    line-height: 1.5;
+}
+
+@media (max-width:840px) {
+
+    body #bottom-card {
+        flex-direction: column;
+    }
+
+    body #bottom-card article {
+        border-radius: 0 0 0 0 !important;
+    }
+}
+
+@media (max-width:650px) {
+    body section {
+        width: 60%;
+    }
+}
