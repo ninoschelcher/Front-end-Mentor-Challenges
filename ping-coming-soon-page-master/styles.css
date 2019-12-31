@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 3em 0 0 0;
+    font-family: "Libre Franklin";
+    text-align: center;
+}
+
+body>section {
+    text-align: center;
+}
+
+body>section h1 {
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    font-size: 2.3em;
+    margin: 1em 0 0 0;
+}
+
+body>section h1>em {
+    font-style: normal;
+    color: #000;
+    font-weight: 700;
+}
+
+body>section p:nth-of-type(2) {
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+body>section input {
+    font-family: "Libre Franklin";
+}
+
+body>section input:first-of-type {
+    padding: 1.3em 15em 1.3em 2em;
+    border-radius: 50px;
+    border: 1px solid #e0e0e0;
+    color: #e0e0e0;
+}
+
+body>section input:first-of-type::placeholder {
+    color:#e0e0e0;
+}
+
+body>section input:last-of-type {
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 1.3em 3em;
+    border-radius: 24px;
+    box-shadow: 0px 7px 31px 0px rgba(21, 61, 163, .5);
+    cursor: pointer;
+    margin: 0 0 0 .7em;
+}
+
+body>section p:last-of-type img {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+body section>div {
+    padding: 3.5em 0;
+}
+
+body>section div i {
+    font-size: 1.1em;
+    margin: 0 .8em;
+    color: hsl(223, 87%, 63%);
+}
+
+body>p {
+    font-weight: 300;
+    color: #bebebe;
+    font-size: .8em;
+    padding-bottom: 1em;
+}
+
+@media(max-width:650px) {
+    body > section input {
+        display: block;
+        margin:0 auto;
+    }
+
+    body>section input:last-of-type {
+        margin: 1em auto 0 auto;
+        padding:1.3em 12em;
+    }
+
+    body>section p:last-of-type img {
+        width: 70%;
+    }
+}
