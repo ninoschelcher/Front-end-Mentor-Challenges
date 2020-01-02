@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+body>section {
+    display: flex;
+    font-family: "Josefin Sans";
+}
+
+body>section article {
+    background-image: url(images/bg-pattern-desktop.svg);
+    padding: 5em 0 0 9em;
+}
+
+body>section article h1 {
+    padding-top: 1.5em;
+    font-size: 3.6em;
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 36%, 70%);
+}
+
+body>section article h2 {
+    text-transform: uppercase;
+    font-size: 3.3em;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+body>section article p {
+    color: hsl(0, 36%, 70%);
+    max-width: 80%;
+    padding-top: 1em;
+}
+
+body>section article form {
+    display: flex;
+    margin-top: 2.5em;
+}
+
+body>section article form input:first-of-type {
+    padding: 1.8em 20em 1.8em 3em;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 36%, 70%);
+    color: hsl(0, 36%, 70%);
+    font-family: "Josefin Sans";
+    font-size: .8em;
+}
+
+body>section article form button {
+    background-image: url("./../images/icon-arrow.svg"),
+        linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    padding: 1em 4.5em;
+    border-radius: 30px;
+    color: #fff;
+    position: relative;
+    right: 5em;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: inherit;
+    border: none;
+}
+
+
+@media (max-width:1100px) {
+
+
+    header {
+        display: block;
+        padding:3em 5em;
+    }
+
+    body>section {
+        flex-direction: column-reverse;
+    }
+
+    body>section article {
+        padding:5em 0 0 0;
+        text-align: center;
+    }
+
+    body>section article h1 {
+        padding-top: 0;
+    }
+
+    body>section article p {
+        max-width: 60%;
+        margin:0 auto;
+    }
+
+    body>section article form input:first-of-type {
+        padding:1.8em 12em 1.8em 3em;
+    }
+
+    body > section article img {
+        display: none;
+    }
+
+    body > section div:last-of-type {
+        background-image: url(images/hero-mobile.jpg);
+        height:50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    body>section article form {
+        justify-content: center;
+    }
+
+    body>section div img {
+        display: none;
+    }
+
+
+}
