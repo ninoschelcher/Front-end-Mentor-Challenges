@@ -78,7 +78,7 @@ body>section article form button {
 
     header {
         display: block;
-        padding:3em 5em;
+        padding: 3em 5em;
     }
 
     body>section {
@@ -86,7 +86,7 @@ body>section article form button {
     }
 
     body>section article {
-        padding:5em 0 0 0;
+        padding: 5em 0 0 0;
         text-align: center;
     }
 
@@ -96,26 +96,27 @@ body>section article form button {
 
     body>section article p {
         max-width: 60%;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
     body>section article form input:first-of-type {
-        padding:1.8em 12em 1.8em 3em;
+        padding: 1.8em 8em 1.8em 3em;
     }
 
-    body > section article img {
+    body>section article img {
         display: none;
     }
 
-    body > section div:last-of-type {
+    body>section div:last-of-type {
         background-image: url(images/hero-mobile.jpg);
-        height:50vh;
+        height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     body>section article form {
         justify-content: center;
+        margin-left: 40px;
     }
 
     body>section div img {
