@@ -96,7 +96,7 @@ body>section:first-of-type {
 }
 
 body>section:first-of-type::before {
-    background: url("images/bg-pattern-intro-right-desktop.svg");
+    background: url("../images/bg-pattern-intro-right-desktop.svg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 380px;
@@ -111,7 +111,7 @@ body>section:first-of-type::before {
 }
 
 body>section:first-of-type::after {
-    background: url(images/bg-pattern-intro-left-desktop.svg);
+    background: url("../images/bg-pattern-intro-left-desktop.svg");
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 150px;
@@ -222,7 +222,7 @@ body>article {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("images/bg-pattern-how-we-work-desktop.svg");
+    background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -447,7 +447,7 @@ footer div:last-of-type ul li:first-of-type p {
     }
 
     body>section:first-of-type::after {
-        background: url(images/bg-pattern-intro-left-desktop.svg);
+        background: url("../images/bg-pattern-intro-left-desktop.svg");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: 160px;
