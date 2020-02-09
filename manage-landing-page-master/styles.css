@@ -1,0 +1,27 @@
+@tailwind base;
+
+@font-face {
+    font-family: font-regular;
+    font-weight: 400;
+    src: url(fonts/BeVietnam-Regular.ttf) format("ttf");
+  }
+
+  @font-face {
+    font-family: font-medium;
+    font-weight: 500;
+    src: url(fonts/BeVietnam-Medium.ttf) format("ttf");
+  }
+
+  @font-face {
+    font-family: font-bold;
+    font-weight: 700;
+    src: url(fonts/BeVietnam-Bold.ttf) format("ttf");
+  }
+
+@tailwind components;
+@tailwind utilities;
+
+
+ul {
+    list-style-type: none;
+}
