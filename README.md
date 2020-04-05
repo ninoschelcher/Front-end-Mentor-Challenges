@@ -26,7 +26,7 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 Practice using version control by creating your own GitHub repository for this challenge. This has the added benefit of being able to publish the site for free on GitHub Pages. Find out more about GitHub Pages here: [https://pages.github.com](https://pages.github.com).
 
-Also, you could try building this project in a team. This is a great way to practice collaborative coding.
+Also, you could try building this project in a team. This is a great way to practice collaborative coding. :)
 
 ## Suggested workflow
 
