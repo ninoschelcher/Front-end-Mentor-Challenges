@@ -6,8 +6,6 @@
 
 [Ping](https://ninoschelcher.github.io/Front-end-Mentor-Challenges/ping-coming-soon-page-master/)
 
-[Manage](https://ninoschelcher.github.io/Front-end-Mentor-Challenges/manage-landing-page-master)
-
 [Insure](https://ninoschelcher.github.io/Front-end-Mentor-Challenges/insure-landing-page-master)
 
 [Huddle Intro](https://ninoschelcher.github.io/Front-end-Mentor-Challenges/huddle-landing-page-with-single-introductory-section-master)
