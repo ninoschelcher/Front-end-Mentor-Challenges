@@ -154,6 +154,8 @@ body main article > p {
 }
 
 .attribution {
+  color: #000;
+  margin-top: 2em;
   font-size: 11px;
   text-align: center;
 }
@@ -176,8 +178,8 @@ body main article > p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    grid-column-gap: 1.6em;
+    grid-row-gap: 1.6em;
     margin: 0 auto;
   }
 
