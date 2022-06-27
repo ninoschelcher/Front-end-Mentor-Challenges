@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    width: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+#card-image {
+    background-image: url("images/image-product-mobile.jpg");
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+#card-description {
+    padding: 1.5rem;
+}
+
+#card-description-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+}
+
+#card-description-title {
+    font-family: "Fraunces";
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    color: hsl(212, 21%, 14%);
+}
+
+#card-description-text {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+#card-description-price {
+    display: flex;
+    align-items: center;
+}
+
+#card-description-price span:first-of-type {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: 2rem;
+}
+
+#card-description-price span:last-of-type {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-left: 1.5rem;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img {
+    margin-right: 0.7rem;
+}
+
+@media only screen and (min-width: 991px) {
+    #card-container {
+        flex-direction: row;
+        width: 40rem;
+        max-width: 40rem;
+    }
+
+    #card-image {
+        background-image: url("images/image-product-desktop.jpg");
+        height: 100%;
+        width: 70rem;
+        background-size: cover;
+        border-radius: 0.6rem 0 0 0.6rem;
+    }
+
+    #card-description {
+        padding: 2rem;
+    }
+
+    #card-description-title {
+        margin: 1.2rem 0;
+        font-size: 2.2rem;
+    }
+
+    #card-description-price {
+        margin-bottom: 2rem;
+    }
+
+    #card-description-text {
+        font-size: 1rem;
+    }
+}
