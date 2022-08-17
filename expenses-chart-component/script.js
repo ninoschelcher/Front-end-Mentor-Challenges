@@ -62,28 +62,27 @@ new Chart(document.getElementById("myChart"), {
   },
   options: {
     plugins: {
+      tooltip: {
+        enabled: true,
+        displayColors: false,
+        bodyFont: "DM Sans",
+        yPadding: 10,
+        xPadding: 10,
+        backgroundColor: "hsl(25, 47%, 15%)",
+        bodyFontColor: "rgb(255, 255, 255)",
+        cornerRadius: 5,
+        caretSize: 0,
+        callbacks: {
+          title: function () {},
+        },
+        xAlign: "center",
+        yAlign: "top",
+      },
       legend: {
         display: false,
       },
     },
 
-    tooltips: {
-      enabled: true,
-      displayColors: false,
-      bodyFont: "DM Sans",
-      yPadding: 10,
-      xPadding: 10,
-      backgroundColor: "hsl(25, 47%, 15%)",
-      bodyFontColor: "rgb(255, 255, 255)",
-      cornerRadius: 5,
-      caretSize: 0,
-
-      callbacks: {
-        title: function () {},
-      },
-      xAlign: "center",
-      yAlign: "top",
-    },
     scales: {
       x: {
         ticks: {

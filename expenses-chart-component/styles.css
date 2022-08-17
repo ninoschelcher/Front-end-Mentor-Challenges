@@ -43,6 +43,12 @@ body {
     padding: 1.5rem;
 }
 
+#graph-header {
+    color: hsl(25, 47%, 15%);
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
 #myChart {
     padding-bottom: 1rem;
 }
