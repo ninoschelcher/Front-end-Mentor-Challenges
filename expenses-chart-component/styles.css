@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "DM Sans";
+    padding: 0 1rem;
+    margin-top: 4rem;
+}
+
+
+#graph-component {
+    max-width: 25rem;
+    width: 100%;
+}
+
+#balance-container {
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+#balance-container p {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+
+#balance-container img {
+    padding-right: 0.5rem;
+    width: 4rem;
+}
+
+#graph-container {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+
+#myChart {
+    padding-bottom: 1rem;
+}
+
+#graph-spendings {
+    padding-top: 1rem;
+    border-top: 1px solid #b8b8b8;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spendings-total {
+    margin-top: 0.5rem;
+
+}
+
+#spendings-total span {
+    color: hsl(28, 10%, 53%);
+    margin-top: 1rem;
+}
+
+#spendings-total p {
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+    margin: 0.3rem 0 0 0;
+    font-size: 2rem;
+}
+
+#spendings-change {
+    align-self: flex-end;
+}
+
+#spendings-change span {
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+    float: right;
+}
+
+#spendings-change p {
+    margin: 0;
+    color: hsl(28, 10%, 53%);
+    clear: right;
+}
